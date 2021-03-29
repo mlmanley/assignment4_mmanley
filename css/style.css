@@ -42,6 +42,10 @@ nav ul li a {
   padding: 20px;
 }
 
+nav ul li a:hover {
+  color: #f47f6f;
+}
+
 .logo-container,
 header nav,
 nav li  {
@@ -92,24 +96,29 @@ main{
   background: #f5f3f1;
 }
 
-.design-image{
-  background:#d9ccc4;
-  margin-left: 20px;
+.container-design .right-half {
+    margin: 0px 25px;
+    padding: 0 10px;
 }
 
-.video-image{
-  background: #d9ccc4;
-  padding: 20px;
+.design-image{
+  background:#d9ccc4;
+  margin-left: 30px;
+}
+
+.video-image {
+    background: #d9ccc4;
+    padding: 15px;
 }
 
 .container-video{
   margin: 20px 0;
-  padding: 30px 0;
+  padding: 30px 0px;
   background: #f5f3f1;
 }
 
-.right-half {
-    margin: 0px 30px;
+.container-video .right-half {
+    margin: 0px 25px;
 }
 
 .container-video .left-half {
