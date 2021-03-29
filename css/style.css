@@ -1,0 +1,52 @@
+/*=======================================
+
+  Universal Styling
+
+========================================*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+h1{
+  font-family: mencken-std-head, sans-serif;
+  color: white;
+  background:#f47f6f;
+}
+
+h2{
+  font-family: mencken-std-head, sans-serif;
+}
+
+p{
+  font-family: montserrat, sans-serif;
+}
+
+
+h2,
+p {
+  color: #404041;
+}
+
+/*=======================================
+
+  Header and Nav Styling
+
+========================================*/
+header {
+    background: #f5f3f1;
+    padding: 10px;
+    font-family: montserrat, sans-serif;
+    font-weight: semibold;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #404041;
+}
+
+header nav li {
+    display: inline-block;
+    margin: 40px;
+}
