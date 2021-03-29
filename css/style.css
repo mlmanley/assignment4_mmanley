@@ -12,7 +12,6 @@
 h1{
   font-family: mencken-std-head, sans-serif;
   color: white;
-  background:#f47f6f;
 }
 
 h2{
@@ -38,15 +37,66 @@ header {
     background: #f5f3f1;
     padding: 10px;
     font-family: montserrat, sans-serif;
-    font-weight: semibold;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 nav ul li a {
   text-decoration: none;
+  font-size: 18px;
   color: #404041;
+  padding: 20px;
+  margin-bottom: 40px;
 }
 
-header nav li {
+.logo,
+header nav,
+nav li  {
     display: inline-block;
-    margin: 40px;
+    text-align: right;
+}
+
+.logo {
+  margin-left: 40px;
+}
+
+nav {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/*=======================================
+
+  Home Page Styling
+
+========================================*/
+
+
+.hero-image {
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+h1 {
+  position: absolute;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  top: 200px;
+  left: 50px;
+  z-index: 99;
+}
+
+.container{
+  margin: 20px 0;
+  padding:10px 0;
+  background: #f5f3f1;
+}
+
+.left-half,
+.right-half {
+  width: 45%;
+  display: inline-block;
 }

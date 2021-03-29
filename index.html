@@ -13,7 +13,7 @@
 
   <body>
     <header>
-      <img src="image/logo.png" alt="Logo" title="Logo" width="140">
+      <img class="logo"src="image/logo.png" alt="Logo" title="Logo" width="140">
 
       <nav>
         <ul>
@@ -27,22 +27,37 @@
     </header>
 
     <main>
-      <section class="hero-image">
-        <img src="image/hero-image.jpg" alt="Hero Image" title="Hero Image">
+
+      <section>
+        <img class="hero-image" src="image/hero-image.png" alt="Hero Image" title="Hero Image">
         <h1>Hello, I'm Maira Manley<br />Web Design Graduate Student<br />and Former Assistant Director</h1>
       </section>
 
-      <section class="top-block">
-        <h2>Web Design Projects</h2>
-        <p>These are some of my web design projects, done as a student at University of Florida.</p>
-        <img src="image/design-photo.png" alt="Design Project" title="Design Project" width="160">
-      </section>
+      <div class="container">
+        <section>
+          <div class="left-half">
+            <img src="image/design-photo.png" alt="Design Project" title="Design Project" width="160">
+          </div>
 
-      <section class="bottom-block">
-        <h2>Video Projects</h2>
-        <p>These are some of my projects as a professional assistant director.</p>
-        <img src="image/video.png" alt="Video Project" title="Video Project" width="400">
-      </section>
+          <div class="right-half">
+            <h2>Web Design Projects</h2>
+            <p>These are some of my web design projects, done as a student at University of Florida.</p>
+          </div>
+        </section>
+      </div>
+
+      <div class="container">
+        <section>
+          <div class="left-half">
+            <h2>Video Projects</h2>
+            <p>These are some of my projects as a professional assistant director.</p>
+          </div>
+
+          <div class="right-half">
+            <img src="image/video.png" alt="Video Project" title="Video Project" width="400">
+          </div>
+        </section>
+      </div>
 
     </main>
   </body>
