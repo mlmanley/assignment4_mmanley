@@ -9,11 +9,6 @@
   border: 0;
 }
 
-h1{
-  font-family: mencken-std-head, sans-serif;
-  color: white;
-}
-
 h2{
   font-family: mencken-std-head, sans-serif;
 }
@@ -21,7 +16,6 @@ h2{
 p{
   font-family: montserrat, sans-serif;
 }
-
 
 h2,
 p {
@@ -34,36 +28,33 @@ p {
 
 ========================================*/
 header {
-    background: #f5f3f1;
     padding: 10px;
-    font-family: montserrat, sans-serif;
+    background: #f5f3f1;
     max-width: 100%;
     margin: 0 auto;
 }
 
 nav ul li a {
   text-decoration: none;
+  font-family: montserrat, sans-serif;
   font-size: 18px;
   color: #404041;
   padding: 20px;
-  margin-bottom: 40px;
 }
 
-.logo,
+.logo-container,
 header nav,
 nav li  {
     display: inline-block;
     text-align: right;
+    vertical-align: middle;
 }
 
-.logo {
-  margin-left: 40px;
+.logo-container{
+  width: 10%;
 }
 
-nav {
-    width: 80%;
-    margin: 0 auto;
-}
+
 
 
 /*=======================================
@@ -81,22 +72,64 @@ nav {
 
 h1 {
   position: absolute;
-  max-width: 100%;
-  margin: 0 auto;
   padding: 10px;
   top: 200px;
-  left: 50px;
+  left: 190px;
   z-index: 99;
+  font-family: mencken-std-head, sans-serif;
+  color: white;
+  font-size: 24px;
+  }
+
+main{
+  width: 80%;
+  margin: 0 auto;
 }
 
-.container{
+.container-design{
   margin: 20px 0;
-  padding:10px 0;
+  padding:20px 0;
   background: #f5f3f1;
+}
+
+.design-image{
+  background:#d9ccc4;
+  margin-left: 20px;
+}
+
+.video-image{
+  background: #d9ccc4;
+  padding: 20px;
+}
+
+.container-video{
+  margin: 20px 0;
+  padding: 30px 0;
+  background: #f5f3f1;
+}
+
+.right-half {
+    margin: 0px 30px;
+}
+
+.container-video .left-half {
+    text-align: right;
+}
+
+.left-half img,
+.right-half img {
+  width: 100%;
+  vertical-align: middle;
 }
 
 .left-half,
 .right-half {
   width: 45%;
   display: inline-block;
+}
+
+footer {
+    text-align: center;
+    padding: 40px 0;
+    background: #f47f6f;
 }
