@@ -97,6 +97,12 @@ nav li  {
 
 ========================================*/
 
+main {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+
 .top-section {
   position: relative;
 }
@@ -121,11 +127,6 @@ nav li  {
   font-size: 28px;
   }
 
-main {
-  width: 80%;
-  margin: 0 auto;
-  margin-top: 120px;
-}
 
 .container-design {
   margin: 20px 0;
