@@ -98,9 +98,8 @@ nav li  {
 ========================================*/
 
 main {
-  width: 80%;
-  margin: 0 auto;
-  margin-top: 120px;
+    width: 80%;
+    margin: 120px auto 0px;
 }
 
 .top-section {
