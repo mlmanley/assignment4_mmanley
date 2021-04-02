@@ -116,14 +116,13 @@ main {
 
 .hello {
     position: absolute;
-    padding: 100px;
     left: 0;
     top: 0;
     max-width: 80%;
-    margin: 60px;
+    margin: 150px;
     z-index: 98;
     color: white;
-    font-size: 32px;
+    font-size: 30px;
 }
 
 
