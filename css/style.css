@@ -17,20 +17,20 @@ h2 {
 }
 
 h2 {
-  font-size: 18px;
-  padding-bottom: 5px;
+  font-size: 20px;
+  padding-bottom: 8px;
   color: #404041;
 }
 
 p {
-    font: 14px/1.4 "montserrat", sans-serif;
-    color: #404041;
+  font: 14px/1.4 "montserrat", sans-serif;
+  color: #404041;
 }
 
 footer {
-    text-align: center;
-    padding: 40px 0;
-    background: #f47f6f;
+  text-align: center;
+  padding: 40px 0;
+  background: #f47f6f;
 }
 
 footer p,
@@ -115,16 +115,16 @@ main {
 }
 
 .hello {
-  position: absolute;
-  padding: 20px;
-  left: 0;
-  top: 0;
-  max-width: 80%;
-  margin: 40px;
-  z-index: 98;
-  color: white;
-  font-size: 28px;
-  }
+    position: absolute;
+    padding: 100px;
+    left: 0;
+    top: 0;
+    max-width: 80%;
+    margin: 60px;
+    z-index: 98;
+    color: white;
+    font-size: 32px;
+}
 
 
 .container-design {
